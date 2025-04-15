@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|c:\\users\\nnmin\\onedrive\\ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh .net\\quanlysachtruyen\\danhnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|solutionrelative:danhnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|solutionrelative:khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|c:\\users\\nnmin\\onedrive\\ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh .net\\quanlysachtruyen\\sachtruyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|solutionrelative:sachtruyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|c:\\users\\nnmin\\onedrive\\ta\u0300i li\u00EA\u0323u\\l\u1EADp tr\u00ECnh .net\\quanlysachtruyen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|solutionrelative:thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|solutionrelative:vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DanhNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\DanhNhap.cs",
+              "RelativeDocumentMoniker": "DanhNhap.cs",
+              "ToolTip": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\DanhNhap.cs [Design]",
+              "RelativeToolTip": "DanhNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:28:06.08Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:27:39.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViPham.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\ViPham.cs",
+              "RelativeDocumentMoniker": "ViPham.cs",
+              "ToolTip": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\ViPham.cs [Design]",
+              "RelativeToolTip": "ViPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:09:19.115Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThongKe.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\ThongKe.cs",
+              "RelativeDocumentMoniker": "ThongKe.cs",
+              "ToolTip": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\ThongKe.cs [Design]",
+              "RelativeToolTip": "ThongKe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:09:06.916Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Khachhang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\Khachhang.cs",
+              "RelativeDocumentMoniker": "Khachhang.cs",
+              "ToolTip": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\Khachhang.cs [Design]",
+              "RelativeToolTip": "Khachhang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:08:52.292Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SachTruyen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\SachTruyen.cs",
+              "RelativeDocumentMoniker": "SachTruyen.cs",
+              "ToolTip": "C:\\Users\\nnmin\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\L\u1EADp tr\u00ECnh .Net\\QuanLySachTruyen\\SachTruyen.cs [Design]",
+              "RelativeToolTip": "SachTruyen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:08:35.462Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
