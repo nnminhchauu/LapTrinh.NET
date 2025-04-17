@@ -1,14 +1,14 @@
-﻿namespace NhanVien
+﻿namespace QuanLySachTruyen
 {
     partial class NhanVien
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,296 +23,312 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            maskedTextBox1 = new MaskedTextBox();
-            maskedTextBox2 = new MaskedTextBox();
-            label7 = new Label();
-            label8 = new Label();
-            label9 = new Label();
-            checkBox1 = new CheckBox();
-            dataGridView1 = new DataGridView();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.GridNhanvien = new System.Windows.Forms.DataGridView();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.btnLuu = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.GridNhanvien)).BeginInit();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.ActiveCaption;
-            label1.Location = new Point(227, 27);
-            label1.Name = "label1";
-            label1.Size = new Size(339, 32);
-            label1.TabIndex = 0;
-            label1.Text = "DANH MỤC NHÂN VIÊN";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(51, 86);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Mã nhân viên";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(142, 80);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 1;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Location = new System.Drawing.Point(164, 84);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(148, 22);
+            this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(142, 134);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
-            textBox2.TabIndex = 2;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(142, 185);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(125, 27);
-            textBox3.TabIndex = 3;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(142, 240);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(125, 27);
-            textBox4.TabIndex = 4;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(507, 80);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(125, 27);
-            textBox5.TabIndex = 5;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox2.Location = new System.Drawing.Point(164, 135);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(148, 22);
+            this.textBox2.TabIndex = 3;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(35, 83);
-            label2.Name = "label2";
-            label2.Size = new Size(100, 20);
-            label2.TabIndex = 6;
-            label2.Text = "Mã nhân viên:";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(51, 137);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Tên nhân viên";
+            // 
+            // textBox3
+            // 
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox3.Location = new System.Drawing.Point(164, 186);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(148, 22);
+            this.textBox3.TabIndex = 5;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(35, 137);
-            label3.Name = "label3";
-            label3.Size = new Size(102, 20);
-            label3.TabIndex = 7;
-            label3.Text = "Tên nhân viên:";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(51, 188);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 16);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Ca làm";
+            // 
+            // textBox4
+            // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.Location = new System.Drawing.Point(164, 238);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(148, 22);
+            this.textBox4.TabIndex = 7;
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(35, 192);
-            label4.Name = "label4";
-            label4.Size = new Size(58, 20);
-            label4.TabIndex = 8;
-            label4.Text = "Ca làm:";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(51, 240);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(80, 16);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Lương tháng";
+            // 
+            // textBox5
+            // 
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox5.Location = new System.Drawing.Point(570, 84);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(148, 22);
+            this.textBox5.TabIndex = 9;
             // 
             // label5
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(36, 243);
-            label5.Name = "label5";
-            label5.Size = new Size(100, 20);
-            label5.TabIndex = 9;
-            label5.Text = "Lương tháng: ";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(420, 83);
-            label6.Name = "label6";
-            label6.Size = new Size(62, 20);
-            label6.TabIndex = 10;
-            label6.Text = "Địa chỉ: ";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(457, 86);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(47, 16);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Địa chỉ";
             // 
             // maskedTextBox1
             // 
-            maskedTextBox1.Location = new Point(507, 134);
-            maskedTextBox1.Mask = "(999) 000-0000";
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(125, 27);
-            maskedTextBox1.TabIndex = 11;
+            this.maskedTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.maskedTextBox1.Location = new System.Drawing.Point(570, 135);
+            this.maskedTextBox1.Mask = "(999) 000-0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(148, 22);
+            this.maskedTextBox1.TabIndex = 10;
             // 
-            // maskedTextBox2
+            // label6
             // 
-            maskedTextBox2.Location = new Point(507, 189);
-            maskedTextBox2.Mask = "00/00/0000";
-            maskedTextBox2.Name = "maskedTextBox2";
-            maskedTextBox2.Size = new Size(125, 27);
-            maskedTextBox2.TabIndex = 12;
-            maskedTextBox2.ValidatingType = typeof(DateTime);
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(457, 137);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 16);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Điện thoại";
             // 
             // label7
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(420, 137);
-            label7.Name = "label7";
-            label7.Size = new Size(81, 20);
-            label7.TabIndex = 13;
-            label7.Text = "Điện thoại:";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(457, 188);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(67, 16);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Ngày sinh";
+            // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.maskedTextBox2.Location = new System.Drawing.Point(570, 186);
+            this.maskedTextBox2.Mask = "00/00/0000";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(148, 22);
+            this.maskedTextBox2.TabIndex = 12;
+            this.maskedTextBox2.ValidatingType = typeof(System.DateTime);
             // 
             // label8
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(420, 192);
-            label8.Name = "label8";
-            label8.Size = new Size(81, 20);
-            label8.TabIndex = 14;
-            label8.Text = "Ngày sinh: ";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(429, 243);
-            label9.Name = "label9";
-            label9.Size = new Size(72, 20);
-            label9.TabIndex = 15;
-            label9.Text = "Giới tính: ";
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(457, 240);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(54, 16);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "Giới tính";
             // 
             // checkBox1
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(507, 243);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(63, 24);
-            checkBox1.TabIndex = 16;
-            checkBox1.Text = "Nam";
-            checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox1.Location = new System.Drawing.Point(570, 238);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(54, 20);
+            this.checkBox1.TabIndex = 15;
+            this.checkBox1.Text = "Nam";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // GridNhanvien
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(63, 293);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(642, 86);
-            dataGridView1.TabIndex = 17;
+            this.GridNhanvien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GridNhanvien.Location = new System.Drawing.Point(54, 290);
+            this.GridNhanvien.Name = "GridNhanvien";
+            this.GridNhanvien.RowHeadersWidth = 51;
+            this.GridNhanvien.RowTemplate.Height = 24;
+            this.GridNhanvien.Size = new System.Drawing.Size(664, 135);
+            this.GridNhanvien.TabIndex = 16;
             // 
-            // button1
+            // btnThoat
             // 
-            button1.Location = new Point(67, 406);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 18;
-            button1.Text = "Thêm";
-            button1.UseVisualStyleBackColor = true;
+            this.btnThoat.Location = new System.Drawing.Point(576, 445);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(76, 28);
+            this.btnThoat.TabIndex = 20;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnLuu
             // 
-            button2.Location = new Point(227, 406);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 19;
-            button2.Text = "Sửa";
-            button2.UseVisualStyleBackColor = true;
+            this.btnLuu.Location = new System.Drawing.Point(462, 445);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.Size = new System.Drawing.Size(72, 28);
+            this.btnLuu.TabIndex = 21;
+            this.btnLuu.Text = "Lưu";
+            this.btnLuu.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnXoa
             // 
-            button3.Location = new Point(388, 406);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 20;
-            button3.Text = "Xóa";
-            button3.UseVisualStyleBackColor = true;
+            this.btnXoa.Location = new System.Drawing.Point(351, 445);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(69, 28);
+            this.btnXoa.TabIndex = 22;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnSua
             // 
-            button4.Location = new Point(527, 406);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 21;
-            button4.Text = "Lưu";
-            button4.UseVisualStyleBackColor = true;
+            this.btnSua.Location = new System.Drawing.Point(243, 445);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(74, 28);
+            this.btnSua.TabIndex = 23;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnThem
             // 
-            button5.Location = new Point(669, 406);
-            button5.Name = "button5";
-            button5.Size = new Size(94, 29);
-            button5.TabIndex = 22;
-            button5.Text = "Đóng";
-            button5.UseVisualStyleBackColor = true;
+            this.btnThem.Location = new System.Drawing.Point(134, 445);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(71, 28);
+            this.btnThem.TabIndex = 24;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.SystemColors.Control;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label9.Location = new System.Drawing.Point(206, 9);
+            this.label9.Name = "label9";
+            this.label9.Padding = new System.Windows.Forms.Padding(18, 16, 18, 16);
+            this.label9.Size = new System.Drawing.Size(376, 63);
+            this.label9.TabIndex = 25;
+            this.label9.Text = "THÔNG TIN NHÂN VIÊN";
             // 
             // NhanVien
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(dataGridView1);
-            Controls.Add(checkBox1);
-            Controls.Add(label9);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(maskedTextBox2);
-            Controls.Add(maskedTextBox1);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
-            Name = "NhanVien";
-            Text = "Form1";
-            Load += NhanVien_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 496);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnLuu);
+            this.Controls.Add(this.btnXoa);
+            this.Controls.Add(this.btnSua);
+            this.Controls.Add(this.btnThem);
+            this.Controls.Add(this.GridNhanvien);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.maskedTextBox2);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Name = "NhanVien";
+            this.Text = "NhanVien";
+            ((System.ComponentModel.ISupportInitialize)(this.GridNhanvien)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
-        private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private MaskedTextBox maskedTextBox1;
-        private MaskedTextBox maskedTextBox2;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private CheckBox checkBox1;
-        private DataGridView dataGridView1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.DataGridView GridNhanvien;
+        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Button btnLuu;
+        private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.Label label9;
     }
 }

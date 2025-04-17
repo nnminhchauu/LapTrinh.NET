@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLySachTruyen
+namespace btl
 {
     public partial class MuonSach : Form
     {
         public MuonSach()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

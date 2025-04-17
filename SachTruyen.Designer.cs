@@ -52,13 +52,13 @@
             this.picAnhsach = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtGhichu = new System.Windows.Forms.TextBox();
-            this.btthoat = new System.Windows.Forms.Button();
-            this.btluu = new System.Windows.Forms.Button();
-            this.btxoa = new System.Windows.Forms.Button();
-            this.btsua = new System.Windows.Forms.Button();
-            this.btthem = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.gridSachtruyen = new System.Windows.Forms.DataGridView();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.btnLuu = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picAnhsach)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridSachtruyen)).BeginInit();
             this.SuspendLayout();
@@ -262,56 +262,6 @@
             this.txtGhichu.Size = new System.Drawing.Size(336, 56);
             this.txtGhichu.TabIndex = 28;
             // 
-            // btthoat
-            // 
-            this.btthoat.Location = new System.Drawing.Point(568, 411);
-            this.btthoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btthoat.Name = "btthoat";
-            this.btthoat.Size = new System.Drawing.Size(76, 28);
-            this.btthoat.TabIndex = 29;
-            this.btthoat.Text = "Thoát";
-            this.btthoat.UseVisualStyleBackColor = true;
-            // 
-            // btluu
-            // 
-            this.btluu.Location = new System.Drawing.Point(454, 411);
-            this.btluu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btluu.Name = "btluu";
-            this.btluu.Size = new System.Drawing.Size(72, 28);
-            this.btluu.TabIndex = 30;
-            this.btluu.Text = "Lưu";
-            this.btluu.UseVisualStyleBackColor = true;
-            // 
-            // btxoa
-            // 
-            this.btxoa.Location = new System.Drawing.Point(343, 411);
-            this.btxoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btxoa.Name = "btxoa";
-            this.btxoa.Size = new System.Drawing.Size(69, 28);
-            this.btxoa.TabIndex = 31;
-            this.btxoa.Text = "Xóa";
-            this.btxoa.UseVisualStyleBackColor = true;
-            // 
-            // btsua
-            // 
-            this.btsua.Location = new System.Drawing.Point(235, 411);
-            this.btsua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btsua.Name = "btsua";
-            this.btsua.Size = new System.Drawing.Size(74, 28);
-            this.btsua.TabIndex = 32;
-            this.btsua.Text = "Sửa";
-            this.btsua.UseVisualStyleBackColor = true;
-            // 
-            // btthem
-            // 
-            this.btthem.Location = new System.Drawing.Point(126, 411);
-            this.btthem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btthem.Name = "btthem";
-            this.btthem.Size = new System.Drawing.Size(71, 28);
-            this.btthem.TabIndex = 33;
-            this.btthem.Text = "Thêm";
-            this.btthem.UseVisualStyleBackColor = true;
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -331,18 +281,68 @@
             this.gridSachtruyen.Size = new System.Drawing.Size(671, 114);
             this.gridSachtruyen.TabIndex = 35;
             // 
+            // btnThoat
+            // 
+            this.btnThoat.Location = new System.Drawing.Point(580, 411);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(76, 28);
+            this.btnThoat.TabIndex = 36;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            // 
+            // btnLuu
+            // 
+            this.btnLuu.Location = new System.Drawing.Point(466, 411);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.Size = new System.Drawing.Size(72, 28);
+            this.btnLuu.TabIndex = 37;
+            this.btnLuu.Text = "Lưu";
+            this.btnLuu.UseVisualStyleBackColor = true;
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Location = new System.Drawing.Point(355, 411);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(69, 28);
+            this.btnXoa.TabIndex = 38;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = true;
+            // 
+            // btnSua
+            // 
+            this.btnSua.Location = new System.Drawing.Point(247, 411);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(74, 28);
+            this.btnSua.TabIndex = 39;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.UseVisualStyleBackColor = true;
+            // 
+            // btnThem
+            // 
+            this.btnThem.Location = new System.Drawing.Point(138, 411);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(71, 28);
+            this.btnThem.TabIndex = 40;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = true;
+            // 
             // SachTruyen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnLuu);
+            this.Controls.Add(this.btnXoa);
+            this.Controls.Add(this.btnSua);
+            this.Controls.Add(this.btnThem);
             this.Controls.Add(this.gridSachtruyen);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.btthoat);
-            this.Controls.Add(this.btluu);
-            this.Controls.Add(this.btxoa);
-            this.Controls.Add(this.btsua);
-            this.Controls.Add(this.btthem);
             this.Controls.Add(this.txtGhichu);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.picAnhsach);
@@ -402,12 +402,12 @@
         private System.Windows.Forms.PictureBox picAnhsach;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtGhichu;
-        private System.Windows.Forms.Button btthoat;
-        private System.Windows.Forms.Button btluu;
-        private System.Windows.Forms.Button btxoa;
-        private System.Windows.Forms.Button btsua;
-        private System.Windows.Forms.Button btthem;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.DataGridView gridSachtruyen;
+        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Button btnLuu;
+        private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.Button btnThem;
     }
 }

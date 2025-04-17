@@ -36,15 +36,15 @@
             this.txtDiachi = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.maskNgaysinh = new System.Windows.Forms.MaskedTextBox();
-            this.cbGioitinh = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btthoat = new System.Windows.Forms.Button();
-            this.btluu = new System.Windows.Forms.Button();
-            this.btxoa = new System.Windows.Forms.Button();
-            this.btsua = new System.Windows.Forms.Button();
-            this.btthem = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.GridViphamKH = new System.Windows.Forms.DataGridView();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnLuu = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.cboxGioitinh = new System.Windows.Forms.CheckBox();
+            ((System.ComponentModel.ISupportInitialize)(this.GridViphamKH)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -117,15 +117,6 @@
             this.maskNgaysinh.Size = new System.Drawing.Size(264, 22);
             this.maskNgaysinh.TabIndex = 11;
             // 
-            // cbGioitinh
-            // 
-            this.cbGioitinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbGioitinh.FormattingEnabled = true;
-            this.cbGioitinh.Location = new System.Drawing.Point(154, 202);
-            this.cbGioitinh.Name = "cbGioitinh";
-            this.cbGioitinh.Size = new System.Drawing.Size(264, 24);
-            this.cbGioitinh.TabIndex = 12;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -135,79 +126,90 @@
             this.label6.TabIndex = 13;
             this.label6.Text = "Vi phạm";
             // 
-            // dataGridView1
+            // GridViphamKH
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(465, 117);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(290, 150);
-            this.dataGridView1.TabIndex = 14;
+            this.GridViphamKH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GridViphamKH.Location = new System.Drawing.Point(465, 117);
+            this.GridViphamKH.Name = "GridViphamKH";
+            this.GridViphamKH.RowHeadersWidth = 51;
+            this.GridViphamKH.RowTemplate.Height = 24;
+            this.GridViphamKH.Size = new System.Drawing.Size(290, 150);
+            this.GridViphamKH.TabIndex = 14;
             // 
-            // btthoat
+            // btnThem
             // 
-            this.btthoat.Location = new System.Drawing.Point(591, 376);
-            this.btthoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btthoat.Name = "btthoat";
-            this.btthoat.Size = new System.Drawing.Size(76, 28);
-            this.btthoat.TabIndex = 15;
-            this.btthoat.Text = "Thoát";
-            this.btthoat.UseVisualStyleBackColor = true;
+            this.btnThem.Location = new System.Drawing.Point(149, 376);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(71, 28);
+            this.btnThem.TabIndex = 19;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = true;
             // 
-            // btluu
+            // btnSua
             // 
-            this.btluu.Location = new System.Drawing.Point(477, 376);
-            this.btluu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btluu.Name = "btluu";
-            this.btluu.Size = new System.Drawing.Size(72, 28);
-            this.btluu.TabIndex = 16;
-            this.btluu.Text = "Lưu";
-            this.btluu.UseVisualStyleBackColor = true;
+            this.btnSua.Location = new System.Drawing.Point(258, 376);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(74, 28);
+            this.btnSua.TabIndex = 18;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.UseVisualStyleBackColor = true;
             // 
-            // btxoa
+            // btnXoa
             // 
-            this.btxoa.Location = new System.Drawing.Point(366, 376);
-            this.btxoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btxoa.Name = "btxoa";
-            this.btxoa.Size = new System.Drawing.Size(69, 28);
-            this.btxoa.TabIndex = 17;
-            this.btxoa.Text = "Xóa";
-            this.btxoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Location = new System.Drawing.Point(366, 376);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(69, 28);
+            this.btnXoa.TabIndex = 17;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = true;
             // 
-            // btsua
+            // btnLuu
             // 
-            this.btsua.Location = new System.Drawing.Point(258, 376);
-            this.btsua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btsua.Name = "btsua";
-            this.btsua.Size = new System.Drawing.Size(74, 28);
-            this.btsua.TabIndex = 18;
-            this.btsua.Text = "Sửa";
-            this.btsua.UseVisualStyleBackColor = true;
+            this.btnLuu.Location = new System.Drawing.Point(477, 376);
+            this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.Size = new System.Drawing.Size(72, 28);
+            this.btnLuu.TabIndex = 16;
+            this.btnLuu.Text = "Lưu";
+            this.btnLuu.UseVisualStyleBackColor = true;
             // 
-            // btthem
+            // btnThoat
             // 
-            this.btthem.Location = new System.Drawing.Point(149, 376);
-            this.btthem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btthem.Name = "btthem";
-            this.btthem.Size = new System.Drawing.Size(71, 28);
-            this.btthem.TabIndex = 19;
-            this.btthem.Text = "Thêm";
-            this.btthem.UseVisualStyleBackColor = true;
+            this.btnThoat.Location = new System.Drawing.Point(591, 376);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(76, 28);
+            this.btnThoat.TabIndex = 15;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            // 
+            // cboxGioitinh
+            // 
+            this.cboxGioitinh.AutoSize = true;
+            this.cboxGioitinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cboxGioitinh.Location = new System.Drawing.Point(154, 203);
+            this.cboxGioitinh.Name = "cboxGioitinh";
+            this.cboxGioitinh.Size = new System.Drawing.Size(54, 20);
+            this.cboxGioitinh.TabIndex = 20;
+            this.cboxGioitinh.Text = "Nam";
+            this.cboxGioitinh.UseVisualStyleBackColor = true;
             // 
             // Khachhang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btthoat);
-            this.Controls.Add(this.btluu);
-            this.Controls.Add(this.btxoa);
-            this.Controls.Add(this.btsua);
-            this.Controls.Add(this.btthem);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.cboxGioitinh);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnLuu);
+            this.Controls.Add(this.btnXoa);
+            this.Controls.Add(this.btnSua);
+            this.Controls.Add(this.btnThem);
+            this.Controls.Add(this.GridViphamKH);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.cbGioitinh);
             this.Controls.Add(this.maskNgaysinh);
             this.Controls.Add(this.txtDiachi);
             this.Controls.Add(this.label5);
@@ -218,7 +220,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Khachhang";
             this.Text = "KhachHang";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GridViphamKH)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,13 +236,13 @@
         private System.Windows.Forms.TextBox txtDiachi;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.MaskedTextBox maskNgaysinh;
-        private System.Windows.Forms.ComboBox cbGioitinh;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button btthoat;
-        private System.Windows.Forms.Button btluu;
-        private System.Windows.Forms.Button btxoa;
-        private System.Windows.Forms.Button btsua;
-        private System.Windows.Forms.Button btthem;
+        private System.Windows.Forms.DataGridView GridViphamKH;
+        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.Button btnLuu;
+        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.CheckBox cboxGioitinh;
     }
 }

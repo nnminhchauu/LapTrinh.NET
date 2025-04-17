@@ -16,7 +16,7 @@ namespace QuanLySachTruyen
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Khachhang());
+            Application.Run(new TrangChu());
         }
     }
 }
