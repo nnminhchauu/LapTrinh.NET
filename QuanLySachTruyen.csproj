@@ -52,6 +52,7 @@
     <Compile Include="Dangnhap.Designer.cs">
       <DependentUpon>Dangnhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO.cs" />
     <Compile Include="MuonSach.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -12,3 +12,18 @@ C:\Users\nnmin\OneDrive\Tài liệu\Lập trình .Net\QuanLySachTruyen\bin\Deb
 C:\Users\nnmin\OneDrive\Tài liệu\Lập trình .Net\QuanLySachTruyen\bin\Debug\QuanLySachTruyen.pdb
 C:\Users\nnmin\OneDrive\Tài liệu\Lập trình .Net\QuanLySachTruyen\obj\Debug\QuanLySachTruyen.exe
 C:\Users\nnmin\OneDrive\Tài liệu\Lập trình .Net\QuanLySachTruyen\obj\Debug\QuanLySachTruyen.pdb
+C:\Users\trang\source\repos\LapTrinh.NET-master\bin\Debug\QuanLySachTruyen.exe.config
+C:\Users\trang\source\repos\LapTrinh.NET-master\bin\Debug\QuanLySachTruyen.exe
+C:\Users\trang\source\repos\LapTrinh.NET-master\bin\Debug\QuanLySachTruyen.pdb
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\QuanLySachTruyen.csproj.AssemblyReference.cache
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\QuanLySachTruyen.DangNhap.resources
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\QuanLySachTruyen.Khachhang.resources
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\QuanLySachTruyen.NhanVien.resources
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\QuanLySachTruyen.Properties.Resources.resources
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\QuanLySachTruyen.SachTruyen.resources
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\QuanLySachTruyen.TrangChu.resources
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\baitaplon.Vipham.resources
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\QuanLySachTruyen.csproj.GenerateResource.cache
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\QuanLySachTruyen.csproj.CoreCompileInputs.cache
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\QuanLySachTruyen.exe
+C:\Users\trang\source\repos\LapTrinh.NET-master\obj\Debug\QuanLySachTruyen.pdb
