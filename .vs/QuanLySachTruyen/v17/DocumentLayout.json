@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\trang\\source\\repos\\LapTrinh.NET-master\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|c:\\users\\trang\\source\\repos\\laptrinh.net-master\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|solutionrelative:thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|C:\\Users\\trang\\source\\repos\\LapTrinh.NET-master\\vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|solutionrelative:vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|c:\\users\\trang\\source\\repos\\laptrinh.net-master\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|solutionrelative:thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|C:\\Users\\trang\\source\\repos\\LapTrinh.NET-master\\vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|solutionrelative:vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|c:\\users\\trang\\source\\repos\\laptrinh.net-master\\vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F71AB9-9772-414D-95FB-EA30A0E753F9}|QuanLySachTruyen.csproj|solutionrelative:vipham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ThongKe.cs",
+              "DocumentMoniker": "C:\\Users\\trang\\source\\repos\\LapTrinh.NET-master\\ThongKe.cs",
+              "RelativeDocumentMoniker": "ThongKe.cs",
+              "ToolTip": "C:\\Users\\trang\\source\\repos\\LapTrinh.NET-master\\ThongKe.cs",
+              "RelativeToolTip": "ThongKe.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAqwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:57:04.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ThongKe.cs [Design]",
               "DocumentMoniker": "C:\\Users\\trang\\source\\repos\\LapTrinh.NET-master\\ThongKe.cs",
               "RelativeDocumentMoniker": "ThongKe.cs",
@@ -42,20 +59,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ViPham.cs",
               "DocumentMoniker": "C:\\Users\\trang\\source\\repos\\LapTrinh.NET-master\\Vipham.cs",
               "RelativeDocumentMoniker": "Vipham.cs",
               "ToolTip": "C:\\Users\\trang\\source\\repos\\LapTrinh.NET-master\\Vipham.cs",
               "RelativeToolTip": "Vipham.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAADwv8oAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T15:09:13.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ViPham.cs [Design]",
               "DocumentMoniker": "C:\\Users\\trang\\source\\repos\\LapTrinh.NET-master\\Vipham.cs",
               "RelativeDocumentMoniker": "Vipham.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\trang\\source\\repos\\LapTrinh.NET-master\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
